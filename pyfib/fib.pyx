@@ -1,7 +1,7 @@
 # distutils: language=c
 # clang c
 
-from sage.rings.integer cimport Integer
+#from sage.rings.integer cimport Integer
 
 cpdef int fib(int n):
     cdef int a = 0, b = 1
